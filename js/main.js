@@ -35,7 +35,7 @@ var last_name = "JAMES";
 var email = "john.jamesmenachery@gmail.com";
 var output;
 
-output = "My name is"+ "\n" +  first_name + last_name + "\n" + "You can contact me at your-" + email;
+output = "My name is"+ "\n" +  first_name + " " + last_name + "\n" + "You can contact me at your-" + email;
 alert(output); 
 
 
