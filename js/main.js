@@ -40,6 +40,7 @@ alert(output);
 
 
 
+
 var numbers = [
     Math.floor(Math.random() * (200 - 100) + 100), 
     Math.floor(Math.random() * (200 - 100) + 100), 
@@ -47,16 +48,14 @@ var numbers = [
     Math.floor(Math.random() * (200 - 100) + 100), 
     Math.floor(Math.random() * (200 - 100) + 100)
 ];
+ var n1 = numbers[0];
+ var n2 = numbers[(numbers.length - 1)];
+ var sum = (n1 + n2);
 
-var sum;
 
-sum = numbers[0] + numbers.length - 1 ;
-
-if (sum % 2 == 0) {
-    alert( sum + "is an even number.") 
+if (sum % 2 === 0){
+    alert (n1 +" + "+ n2+ " = " + sum +"\n"+ " This is  an even Number");
 } else {
-    alert( sum + "is an odd number.") ;
+    alert(n1 +" + "+ n2 +" = " + sum +"\n" +" This is  an odd Number");
 }
-
-
 
